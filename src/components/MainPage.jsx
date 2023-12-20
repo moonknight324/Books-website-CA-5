@@ -15,7 +15,6 @@ function Home() {
       })
       .then((out) => {
         setData(out.data.books);
-        // console.log(out.data);
       });
   }, []);
 
