@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Styling for main page */
+
+.main-page {
+  margin: 0 0 0 4vw;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 8% 7% 0 6%;
+}
+
+.content {
+  width: 20vw;
+  height: 60vh;
+  margin-bottom: 10vh;
+  text-align: center;
+  margin-left: 5vw;
+}
+
+.content:hover {
+  border: 1px solid gray;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.book-img {
+  width: 18vw;
+  height: 40vh;
+  margin-top: 2vh;
+}
+
+.content {
+  overflow: hidden;
+  position: relative;
+}
+
+.book-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.content:hover img {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+.book-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5vh;
+}
+
+.rating {
+  margin-top: 1vh;
+}
+
+.logo {
+  position: relative;
+  bottom: 27px;
+  display: flex;
+  color: rgb(231, 0, 0);
+  font-size: 25px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.kalvium {
+  position: relative;
+  bottom: 10px;
+  font-size: 5vh;
+  top: 8px;
+  font-weight: bold;
+}
+
+.logo-img {
+  width: 2vw;
+  height: 4.7vh;
+}
+
+.img {
+  position: relative;
+  top: 17px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  height: 8vh;
+  background-color: black;
+}
+
+/* styles for search bar */
+.search-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  text-align: start;
+  border: 1px solid grey;
+  outline: none;
+  border-radius: 10px 0 0 10px;
+  border-right: 0;
+  height: 5vh;
+  width: 3vw;
+}
+
+.search-img img {
+  width: 1.2vw;
+  height: 3vh;
+}
+
+.search-box {
+  border: 1px solid grey;
+  width: 35vw;
+  height: 5vh;
+  border-radius: 0 10px 10px 0;
+  border-left: 0;
+  outline: none;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* styles for register button */
+.register-btn {
+  margin-top: 35px;
+  padding: 10px;
+  margin-right: 30px;
+  width: 150px;
+  color: red;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 5px;
+  position: relative;
+  bottom: 30px;
+}
+
+/* Styles for Registration Form */
+
+.success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  height: 6vh;
+}
+
+.success img {
+  width: 1.5vw;
+  margin-right: 10px;
+}
+
+.container {
+  position: relative;
+  bottom: 40px;
+  justify-content: center;
+  margin-top: 5%;
+  border: 1px solid grey;
+  width: 70vh;
+  height: 80vh;
+  margin-left: 33vw;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px grey;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  margin: 20px;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 1px 1px gray;
+  width: 22vw;
+}
+
+/* styles for signup button */
+.sign-up-btn {
+  margin-top: 35px;
+  padding: 10px;
+  margin-right: 30px;
+  width: 150px;
+  color: red;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 7px;
+  border-radius: 10px;
+  box-shadow: 1px 1px gray;
+  transition: transform 0.1s ease-in-out;
+}
+
+.sign-up-btn:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 0 0 10 0 rgb(0, 0, 0, 0.5);
+}
+
+.sign-up-btn {
+  margin-bottom: 2vh;
+  background-color: black;
+  color: white;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
+
+h1 {
+  text-align: center;
+  padding: 5px;
+  color: red;
+}
+
+.err {
+  color: red;
+  text-align: center;
+  font-size: small;
+}
+
+.click {
+  font-size: 1.2vw;
+  font-weight: 00;
+}
+
+.link {
+  text-decoration: none;
+  color: red;
+  cursor: pointer;
+}
